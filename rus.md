@@ -32,7 +32,7 @@
     var zombie = {
         eyeLeft : 0,
         eyeRight: 1,
-        // ... много ключей ...
+        // … много ключей …
         eyeLeft : 1
     }
 
