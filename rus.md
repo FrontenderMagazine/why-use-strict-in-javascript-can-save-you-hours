@@ -90,6 +90,16 @@
 <blockquote class="twitter-tweet" lang="en"><p>Как короткая строка в JavaScript может сэкономить вам пару часов <a href="http://t.co/frkaShxtTW">http://t.co/frkaShxtTW</a> <a href="https://twitter.com/search?q=%23JavaScript&amp;src=hash">#JavaScript</a> <a href="https://twitter.com/search?q=%23useStrict&amp;src=hash">#useStrict</a></p>&mdash; Pro JavaScript (@ProJavaScript) <a href="https://twitter.com/ProJavaScript/statuses/431487194750918656">Февраль 6, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+**[WoollyMittens][3], пользователь reddit** в [комментариях][4] предложил:
+
+>Вместе с этим можно установить "linter", что бы избежать глупых ошибок даже не запуская код: http://www.jshint.com/ 
+Для большинства редакторов есть соответствующий плагин. Можете считать это теми красными волнистыми линиями, которыми подчеркиваются ваши грамматические ошибки, 
+когда вы пишете email, но применительно к коду.
+
+Скоро я поясню как можно это все автоматизировать с помощью grunt.
+**[loz220][5], пользователь reddit** в [комментариях][6] предложил:
+
+>Неплохой обзор. Посмотреть [полный список того, что делает "use strict", можно здесь][7].
 
 ## Материалы для дальнейшего изучения
 
@@ -98,5 +108,10 @@
 
 
 
-[1]: http://www.webdesignporto.com/javascript-classes-and-inheritance/?utm_source=internal-further-reading&utm_medium=link&utm_campaign=internal
-[2]: http://www.webdesignporto.com/react-js-in-pure-javascript-facebook-library/?utm_source=internal-further-reading&utm_medium=link&utm_campaign=internal
+[1]:http://www.webdesignporto.com/javascript-classes-and-inheritance/?utm_source=internal-further-reading&utm_medium=link&utm_campaign=internal
+[2]:http://www.webdesignporto.com/react-js-in-pure-javascript-facebook-library/?utm_source=internal-further-reading&utm_medium=link&utm_campaign=internal
+[3]:http://www.reddit.com/user/WoollyMittens
+[4]:http://www.reddit.com/r/javascript/comments/1x728r/how_a_small_string_can_save_you_hours_in/
+[5]:http://www.reddit.com/user/loz220
+[6]:http://www.reddit.com/r/javascript/comments/1x728r/how_a_small_string_can_save_you_hours_in/
+[7]:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions_and_function_scope/Strict_mode
