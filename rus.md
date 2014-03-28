@@ -103,8 +103,8 @@
 
 ## Материалы для дальнейшего изучения
 
-* [Javascript Classes, Inheritance and Mixins - Deep explanation.][1]
-* [React.js in pure JavaScript (Facebook library) - Deep explanation for newbies.][2]
+* [Углубленное исследование классов, наследования и примесей в Javascript.][1]
+* [Глубокое использование использования React.js в чистом JavaScript для начинающих (библиотека Facebook)][2]
 
 
 
