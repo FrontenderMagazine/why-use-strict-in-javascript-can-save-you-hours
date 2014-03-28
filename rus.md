@@ -8,7 +8,7 @@
     // file.js
     "use strict"
     function doStuff(){
-    // строгий режим активирован
+    	// строгий режим активирован
     }
 
 В описанный выше примере строгий режим применяется по всему коду в файле 
@@ -18,11 +18,11 @@
 
     // file.js
     function a(){
-    "use strict";
-    // строгий режим активирован только для кода внутри функции
-    function nestedFunction(){
-    // и будет также применяться внутри вложенной функции
-    }
+        "use strict";
+        // строгий режим активирован только для кода внутри функции
+        function nestedFunction(){
+    		// и будет также применяться внутри вложенной функции
+    	}
     }
 
 ## Преимущества
@@ -30,10 +30,10 @@
 ### Продублированные ключи в объекте
 
     var zombie = {
-    eyeLeft : 0,
-    eyeRight: 1,
-    // ... много ключей ...
-    eyeLeft : 1
+        eyeLeft : 0,
+        eyeRight: 1,
+        // ... много ключей ...
+        eyeLeft : 1
     }
 
 В результате мы получим ошибку, так как ключ `eyeLeft` встречается дважды. В данном случае строгий режим спасёт вас от дублирования ключа в объекте.
@@ -67,8 +67,8 @@
 ### Фиксация `arguments` внутри функции
 
     var run = function(fromWhom){
-    arguments[0] = 'alien';
-    alert(fromWhom);
+        arguments[0] = 'alien';
+        alert(fromWhom);
     }
     run('zombie');
     // alert: 'alien';
@@ -76,9 +76,9 @@
 Если использовать строгий режим:
 
     var run = function(fromWhom){
-    "use strict";
-    arguments[0] = 'alien';
-    alert(fromWhom);
+        "use strict";
+        arguments[0] = 'alien';
+        alert(fromWhom);
     }
     run('zombie');
     // alert: 'zombie';
