@@ -89,3 +89,14 @@
 
 <blockquote class="twitter-tweet" lang="en"><p>Как короткая строка в JavaScript может сэкономить вам пару часов <a href="http://t.co/frkaShxtTW">http://t.co/frkaShxtTW</a> <a href="https://twitter.com/search?q=%23JavaScript&amp;src=hash">#JavaScript</a> <a href="https://twitter.com/search?q=%23useStrict&amp;src=hash">#useStrict</a></p>&mdash; Pro JavaScript (@ProJavaScript) <a href="https://twitter.com/ProJavaScript/statuses/431487194750918656">Февраль 6, 2014</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+
+## Материалы для дальнейшего изучения
+
+* [Javascript Classes, Inheritance and Mixins - Deep explanation.][1]
+* [React.js in pure JavaScript (Facebook library) - Deep explanation for newbies.][2]
+
+
+
+[1]: http://www.webdesignporto.com/javascript-classes-and-inheritance/?utm_source=internal-further-reading&utm_medium=link&utm_campaign=internal
+[2]: http://www.webdesignporto.com/react-js-in-pure-javascript-facebook-library/?utm_source=internal-further-reading&utm_medium=link&utm_campaign=internal
